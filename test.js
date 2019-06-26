@@ -6,7 +6,6 @@ const connect = () => {
 
 const student = new mongoose.Schema(
   {
-    //firstName: String,
     firstName: {
       type: String,
       required: true,
@@ -16,7 +15,7 @@ const student = new mongoose.Schema(
       school: {
         type: String
       },
-      shoeSie: {
+      shoeSize: {
         type: Number
       }
     },
